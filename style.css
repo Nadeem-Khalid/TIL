@@ -8,7 +8,7 @@ body {
   background-color: #292524;
   color: #fafaf9;
   font-family: "Sono", sans-serif;
-  padding: 40px;
+  padding: 48px 64px;
 }
 
 .header {
@@ -24,10 +24,20 @@ body {
   gap: 48px;
 }
 
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
 .logo {
   display: flex;
   align-items: center;
   gap: 16px;
+}
+
+.logo img {
+  width: 68px;
+  height: 68px;
 }
 
 .factform {
